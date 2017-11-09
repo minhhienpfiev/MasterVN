@@ -88,7 +88,6 @@ with open("Nodes.txt", "r") as f1:
                 break
             centers.append(new_centers)
             it += 1
-        print (it)
         labels.append(kmeans_assign_labels(Y, centers[-1]))
         print ("Centers found:")    
         print(centers[-1])
